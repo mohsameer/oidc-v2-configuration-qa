@@ -1,0 +1,7 @@
+{
+  "secret/oidcv2/nam-clientId": "1namb56c-e236-2243-2hg6-8276c36g2478",
+  "secret/oidcv2/nam-clientSecret": "${client_secret}",
+  "secret/oidcv2/nam-redirectUris": "[\"https://localhost:44393/signin-oidc\"]",
+  "secret/oidcv2/nam-postLogoutRedirectUris": "[\"https://localhost:44393/signout-oidc\"]",
+  "secret/oidcv2/nam-introspectorConfig": "{\"cauthnpUrl\": \"https://sso-qa.pps.co.za/sso-login\", \"errorUrl\": \"https://sso-qa.pps.co.za/sso-login/error\", \"idClaim\": \"userName\", \"claimsMap\": {\"mail\": \"email\", \"mobile\": \"mobile\", \"cn\": \"uID\", \"sn\": \"familyName\", \"givenName\": \"givenName\", \"applications\": \"applications\", \"sparkleData\": \"sparkleData\", \"sparkleLinkedData\": \"sparkleLinkedData\", \"nickname\": \"userName\", \"profitData\": \"profitData\", \"saID\": \"saID\", \"title\": \"title\"}, \"postNewSessionUrl\": \"http://session-mgmt-service.services.svc.cluster.local:8081/api/session/create\", \"postSessionCompleteUrl\": \"http://session-mgmt-service.services.svc.cluster.local:8081/api/session/{session_id}/complete\", \"interceptorLoglevel\": \"DEBUG\", \"taiMethod\": \"query\", \"oidcUrl\": \"$oidcUrl\", \"groups\": [\"group3\"]}"
+}

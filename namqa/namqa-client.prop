@@ -1,0 +1,7 @@
+{
+  "secret/oidcv2/namqa-clientId": "1namqa6c-e236-2243-2hg6-8276c36g1284",
+  "secret/oidcv2/namqa-clientSecret": "96c318cc-b4e4-49fb-a514-a1e4f00ef3d6",
+  "secret/oidcv2/namqa-redirectUris": "[\"https://localhost:44393/signin-oidc\"]",
+  "secret/oidcv2/namqa-postLogoutRedirectUris": "[\"https://localhost:44393/signout-oidc\"]",
+  "secret/oidcv2/namqa-introspectorConfig": "{\"cauthnpUrl\": \"https://sso-qa.pps.co.za/sso-login\", \"errorUrl\": \"https://sso-qa.pps.co.za/sso-login/error\", \"idClaim\": \"userName\", \"claimsMap\": {\"mail\": \"email\", \"mobile\": \"mobile\", \"cn\": \"uID\", \"sn\": \"familyName\", \"givenName\": \"givenName\", \"applications\": \"applications\", \"sparkleData\": \"sparkleData\", \"sparkleLinkedData\": \"sparkleLinkedData\", \"nickname\": \"userName\", \"profitData\": \"profitData\", \"saID\": \"saID\", \"title\": \"title\"}, \"postNewSessionUrl\": \"http://session-mgmt-service.services.svc.cluster.local:8081/api/session/create\", \"postSessionCompleteUrl\": \"http://session-mgmt-service.services.svc.cluster.local:8081/api/session/{session_id}/complete\", \"interceptorLoglevel\": \"DEBUG\", \"taiMethod\": \"query\", \"oidcUrl\": \"$oidcUrl\", \"groups\": [\"group3\"]}"
+}

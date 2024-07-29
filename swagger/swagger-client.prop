@@ -1,0 +1,7 @@
+{
+  "secret/oidcv2/swagger-clientId": "1swagb56c-d409-6656-3us4-34l5c36g9927",
+  "secret/oidcv2/swagger-clientSecret": "client_secret",
+  "secret/oidcv2/swagger-redirectUris": "[\"http://10.200.110.85/swagger-ui/oauth2-redirect.html\", \"http://127.0.0.1:8080/swagger-ui/oauth2-redirect.html\"]",
+  "secret/oidcv2/swagger-postLogoutRedirectUris": "[\"http://test.pps.co.za\"]",
+  "secret/oidcv2/swagger-introspectorConfig": "{\"cauthnpUrl\": \"https://sso-qa.pps.co.za/sso-login\", \"errorUrl\": \"https://sso-qa.pps.co.za/sso-login/error\", \"idClaim\": \"userName\", \"claimsMap\": {\"mail\": \"email\", \"mobile\": \"mobile\", \"cn\": \"uID\", \"sn\": \"familyName\", \"givenName\": \"givenName\", \"applications\": \"applications\", \"sparkleData\": \"sparkleData\", \"sparkleLinkedData\": \"sparkleLinkedData\", \"nickname\": \"userName\", \"profitData\": \"profitData\", \"saID\": \"saID\", \"title\": \"title\"}, \"postNewSessionUrl\": \"http://session-mgmt-service.services.svc.cluster.local:8081/api/session/create\", \"postSessionCompleteUrl\": \"http://session-mgmt-service.services.svc.cluster.local:8081/api/session/{session_id}/complete\", \"interceptorLoglevel\": \"DEBUG\", \"taiMethod\": \"query\", \"oidcUrl\": \"$oidcUrl\", \"groups\": [\"group3\"]}"
+}

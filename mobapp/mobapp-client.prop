@@ -1,0 +1,7 @@
+{
+  "secret/oidcv2/mobapp-clientId": "1mobapp-g256-9827-3fk8-1034r48j1174",
+  "secret/oidcv2/mobapp-clientSecret": "0ac02842-106d-4ef9-9f19-8c4d897c113d",
+  "secret/oidcv2/mobapp-redirectUris": "[\"https://sso-qa.pps.co.za/group-app/login/oauth2/code/oidc\", \"http://localhost:8081/group-app/login/oauth2/code/oidc\"]",
+  "secret/oidcv2/mobapp-postLogoutRedirectUris": "[\"https://sso-qa.pps.co.za/group-app\", \"http://localhost:8081/group-app\"]",
+  "secret/oidcv2/mobapp-introspectorConfig": "{\"cauthnpUrl\": \"https://sso-qa.pps.co.za/sso-login\", \"errorUrl\": \"https://sso-qa.pps.co.za/sso-login/error\", \"idClaim\": \"userName\", \"claimsMap\": {\"mail\": \"email\", \"mobile\": \"mobile\", \"cn\": \"uID\", \"sn\": \"familyName\", \"givenName\": \"givenName\", \"applications\": \"applications\", \"sparkleData\": \"sparkleData\", \"sparkleLinkedData\": \"sparkleLinkedData\", \"nickname\": \"userName\", \"profitData\": \"profitData\", \"saID\": \"saID\", \"title\": \"title\"}, \"postNewSessionUrl\": \"http://session-mgmt-service.services.svc.cluster.local:8081/api/session/create\", \"postSessionCompleteUrl\": \"http://session-mgmt-service.services.svc.cluster.local:8081/api/session/{session_id}/complete\", \"interceptorLoglevel\": \"DEBUG\", \"taiMethod\": \"query\", \"oidcUrl\": \"$oidcUrl\", \"groups\": [\"group3\"]}"
+}
