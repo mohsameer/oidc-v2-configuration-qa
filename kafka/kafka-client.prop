@@ -1,0 +1,7 @@
+{
+  "secret/oidcv2/kafka-clientId": "1kafka-l536-6734-9kh7-1019r66p2873",
+  "secret/oidcv2/kafka-clientSecret": "72ab2592-fe68-464c-8e2e-9f226a9fc6d5",
+  "secret/oidcv2/kafka-redirectUris": "[\"https://sso-qa.pps.co.za/kafka-error-handler/login/oauth2/code/oidc\", \"https://sso-qa.pps.co.za/kafka-error-handler/login/oauth2/code/oidc\"]",
+  "secret/oidcv2/kafka-postLogoutRedirectUris": "[\"https://sso-qa.pps.co.za/kafka-error-handler\", \"http://localhost:8081/kafka-error-handler\"]",
+  "secret/oidcv2/kafka-introspectorConfig": "{\"cauthnpUrl\": \"https://sso-qa.pps.co.za/sso-login\", \"errorUrl\": \"https://sso-qa.pps.co.za/sso-login/error\", \"idClaim\": \"userName\", \"claimsMap\": {\"mail\": \"email\", \"mobile\": \"mobile\", \"cn\": \"uID\", \"sn\": \"familyName\", \"givenName\": \"givenName\", \"applications\": \"applications\", \"sparkleData\": \"sparkleData\", \"sparkleLinkedData\": \"sparkleLinkedData\", \"nickname\": \"userName\", \"profitData\": \"profitData\", \"saID\": \"saID\", \"title\": \"title\"}, \"postNewSessionUrl\": \"http://session-mgmt-service.services.svc.cluster.local:8081/api/session/create\", \"postSessionCompleteUrl\": \"http://session-mgmt-service.services.svc.cluster.local:8081/api/session/{session_id}/complete\", \"interceptorLoglevel\": \"DEBUG\", \"taiMethod\": \"query\", \"oidcUrl\": \"$oidcUrl\", \"groups\": [\"group3\"]}"
+}

@@ -1,0 +1,7 @@
+{
+  "secret/oidcv2/ushur-clientId": "1usher-k768-1243-2hj8-1145s27u2324",
+  "secret/oidcv2/ushur-clientSecret": "35aefa2b-8d47-4747-b974-ef825f0a66a2",
+  "secret/oidcv2/ushur-redirectUris": "[\"https://ppsdev.ushur.me/mob3.0/auth\"]",
+  "secret/oidcv2/ushur-postLogoutRedirectUris": "[\"https://ppsdev.ushur.me/mob3.0/auth\"]",
+  "secret/oidcv2/ushur-introspectorConfig": "{\"cauthnpUrl\": \"https://sso-qa.pps.co.za/sso-login\", \"errorUrl\": \"https://sso-qa.pps.co.za/sso-login/error\", \"idClaim\": \"userName\", \"claimsMap\": {\"mail\": \"email\", \"mobile\": \"mobile\", \"cn\": \"uID\", \"sn\": \"familyName\", \"givenName\": \"givenName\", \"applications\": \"applications\", \"sparkleData\": \"sparkleData\", \"sparkleLinkedData\": \"sparkleLinkedData\", \"nickname\": \"userName\", \"profitData\": \"profitData\", \"saID\": \"saID\", \"title\": \"title\"}, \"postNewSessionUrl\": \"http://session-mgmt-service.services.svc.cluster.local:8081/api/session/create\", \"postSessionCompleteUrl\": \"http://session-mgmt-service.services.svc.cluster.local:8081/api/session/{session_id}/complete\", \"interceptorLoglevel\": \"DEBUG\", \"taiMethod\": \"query\", \"oidcUrl\": \"$oidcUrl\", \"groups\": [\"group3\"]}"
+}
