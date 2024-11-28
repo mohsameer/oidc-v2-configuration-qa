@@ -1,0 +1,7 @@
+{
+  "secret/oidcv2/servicemanager-clientId": "1srvmgrcomm-2739-9815-2gt4-23e9sh7",
+  "secret/oidcv2/servicemanager-clientSecret": "4c197edf-dfa0-42e1-b226-e1690b293f68",
+  "secret/oidcv2/servicemanager-redirectUris": "[\"https://sso-qa.pps.co.za/kafka-error-handler/login/oauth2/code/oidc\", \"https://sso-qa.pps.co.za/kafka-error-handler/login/oauth2/code/oidc\"]",
+  "secret/oidcv2/servicemanager-postLogoutRedirectUris": "[\"https://sso-qa.pps.co.za/kafka-error-handler\", \"http://localhost:8081/kafka-error-handler\"]",
+  "secret/oidcv2/servicemanager-introspectorConfig": "{\"cauthnpUrl\": \"https://sso-qa.pps.co.za/sso-login\", \"errorUrl\": \"https://sso-qa.pps.co.za/sso-login/error\", \"idClaim\": \"userName\", \"claimsMap\": {\"mail\": \"email\", \"mobile\": \"mobile\", \"cn\": \"uID\", \"sn\": \"familyName\", \"givenName\": \"givenName\", \"applications\": \"applications\", \"sparkleData\": \"sparkleData\", \"sparkleLinkedData\": \"sparkleLinkedData\", \"nickname\": \"userName\", \"profitData\": \"profitData\", \"saID\": \"saID\", \"title\": \"title\"}, \"postNewSessionUrl\": \"http://session-mgmt-service.services.svc.cluster.local:8081/api/session/create\", \"postSessionCompleteUrl\": \"http://session-mgmt-service.services.svc.cluster.local:8081/api/session/{session_id}/complete\", \"interceptorLoglevel\": \"DEBUG\", \"taiMethod\": \"query\", \"oidcUrl\": \"$oidcUrl\", \"groups\": [\"group3\"]}"
+}

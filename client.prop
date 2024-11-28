@@ -1,5 +1,5 @@
 {
-  "secret/oidcv2/APPNAME-clientId": "1stiqq-l235-9264-7yu8-1275r7yy9k1",
+  "secret/oidcv2/APPNAME-clientId": "1srvmgrcomm-2739-9815-2gt4-23e9sh7",
   "secret/oidcv2/APPNAME-clientSecret": "clientsecret",
   "secret/oidcv2/APPNAME-redirectUris": "[\"https://sso-qa.pps.co.za/kafka-error-handler/login/oauth2/code/oidc\", \"https://sso-qa.pps.co.za/kafka-error-handler/login/oauth2/code/oidc\"]",
   "secret/oidcv2/APPNAME-postLogoutRedirectUris": "[\"https://sso-qa.pps.co.za/kafka-error-handler\", \"http://localhost:8081/kafka-error-handler\"]",
